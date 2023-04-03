@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>TP integrador grupo B</title>
+    <meta
+      name="description"
+      content="Pagina web de emprendimiento de reposteria"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rosario:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rosario:wght@700&family=Rouge+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="presupuesto.css" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <section class="seccion-nombre">
+        <img class="logo" src="../imagenes/logo.jpg" alt="logo" />
+        <p class="nombre">Maria Dulce Pasteleria</p>
+      </section>
+
+      <ul id="navbar-menu" class="navbar-menu">
+        <li><a href="../index.html">HOME</a></li>
+        <li><a href="#">ACERCA DE MI</a></li>
+        <li><a href="#">CONTACTO</a></li>
+        <li><a href="presupuestoJulian/presupuesto.html">PRESUPUESTO</a></li>
+      </ul>
+    </nav>
+    <form action="" id="formularioPresupuesto">
+      <div class="grupo-input">
+        <label for="nombre" class="label-grupo-input">Nombre*</label>
+        <input
+          required
+          type="text"
+          name="nombre"
+          id="nombre"
+          class="input-grupo-input"
+        />
+      </div>
+      <div class="grupo-input">
+        <label for="email" class="label-grupo-input">Email*</label>
+        <input
+          required
+          type="email"
+          name="email"
+          id="email"
+          class="input-grupo-input"
+        />
+      </div>
+      <legend class="titulo-checkbox">Elige tu Delicia</legend>
+      <div class="contenedor-checkbox">
+        <div class="producto-checkbox">
+          <input
+            class="input-checbox"
+            type="checkbox"
+            id="torta"
+            name="torta"
+            value="torta"
+          />
+          <label for="torta" class="label-checkbox"> Torta </label>
+        </div>
+        <div class="contenedor-porciones">
+          <label for="porciones" class="label-porciones"
+            >Cantidad de porciones</label
+          >
+          <select name="porcionesDeTorta" id="select-porciones-torta">
+            <option value="">Selecciona una opcion</option>
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+            <option value="40">40</option>
+            <option value="60">60</option>
+          </select>
+        </div>
+
+        <div class="contenedor-pisos">
+          <legend class="legend-pisos">Pisos</legend>
+          <div class="pisos-radio">
+            <input
+              class="input-pisos"
+              type="radio"
+              name="pisos"
+              id="pisos-uno"
+              value="1"
+            />
+            <label class="label-pisos" for="pisos-uno">1</label>
+          </div>
+          <div class="pisos-radio">
+            <input
+              class="input-pisos"
+              type="radio"
+              name="pisos"
+              id="pisos-dos"
+              value="2"
+            />
+            <label class="label-pisos" for="pisos-dos">2</label>
+          </div>
+          <div class="pisos-radio">
+            <input
+              class="input-pisos"
+              type="radio"
+              name="pisos"
+              id="pisos-tres"
+              value="3"
+            />
+            <label class="label-pisos" for="pisos-tres">3</label>
+          </div>
+        </div>
+      </div>
+      <div class="contenedor-checkbox">
+        <div class="producto-checkbox">
+          <input
+            class="input-checbox"
+            type="checkbox"
+            id="postre"
+            name="postre"
+            value="postre"
+          />
+          <label for="postre" class="label-checkbox"> Postre </label>
+        </div>
+        <div class="contenedor-porciones">
+          <label for="porciones" class="label-porciones"
+            >Cantidad de porciones</label
+          >
+          <select name="porcionesDepostre" id="select-porciones-postre">
+            <option value="">Selecciona una opcion</option>
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+            <option value="40">40</option>
+            <option value="60">60</option>
+          </select>
+        </div>
+      </div>
+      <div class="contenedor-checkbox">
+        <div class="producto-checkbox">
+          <input
+            class="input-checbox"
+            type="checkbox"
+            id="cajitasChocolatosas"
+            name="cajitasChocolatosas"
+            value="cajitasChocolatosas"
+          />
+          <label for="cajitasChocolatosas" class="label-checkbox">
+            Cajitas chocolatosas
+          </label>
+        </div>
+        <div class="contenedor-porciones">
+          <label for="porciones" class="label-porciones">Cantidad </label>
+          <input
+            type="number"
+            name="cajitasChocolatosas"
+            id="cajitasChocolatosasCantidad"
+          />
+        </div>
+      </div>
+      <div class="contenedor-checkbox">
+        <div class="producto-checkbox">
+          <input
+            class="input-checbox"
+            type="checkbox"
+            id="cookiess"
+            name="cookiess"
+            value="cookiess"
+          />
+          <label for="cookiess" class="label-checkbox"> Cookies </label>
+        </div>
+        <div class="contenedor-porciones">
+          <label for="cookiess" class="label-porciones">Cantidad </label>
+          <input type="number" name="cookiess" id="cookiesCantidad" />
+        </div>
+      </div>
+      <div class="contenedor-checkbox">
+        <div class="producto-checkbox">
+          <input
+            class="input-checbox"
+            type="checkbox"
+            id="iceCakesCupcakes"
+            name="iceCakesCupcakes"
+            value="iceCakesCupcakes"
+          />
+          <label for="iceCakesCupcakes" class="label-checkbox">
+            Ice Cakes y Cupcakes
+          </label>
+        </div>
+        <div class="contenedor-porciones">
+          <label for="iceCakesCupcakes" class="label-porciones"
+            >Cantidad
+          </label>
+          <input
+            type="number"
+            name="iceCakesCupcakes"
+            id="iceCakesCupcakesCantidad"
+          />
+        </div>
+      </div>
+      <div class="contenedor-checkbox">
+        <div class="producto-checkbox">
+          <input
+            class="input-checbox"
+            type="checkbox"
+            id="mesaDulce"
+            name="mesaDulce"
+            value="mesaDulce"
+          />
+          <label for="mesaDulce" class="label-checkbox"> Mesa dulce </label>
+        </div>
+        <div class="contenedor-porciones">
+          <label for="porciones" class="label-porciones"
+            >Cantidad de comensales
+          </label>
+          <input type="number" name="mesaDulce" id="mesaDulceComensales" />
+        </div>
+      </div>
+      <div class="contenedor-mensaje">
+        <label class="label-mensaje" for="mensaje">Mensaje:</label> <br />
+        <textarea
+          class="text-mensaje"
+          name="mensaje"
+          id="mensaje"
+          cols="15"
+          rows="5"
+        ></textarea>
+
+        <button class="boton-presupuesto" id="boton-presupuesto">Enviar</button>
+      </div>
+    </form>
+    <form id="step-2">
+      <p class="resumen-text">Resumen:</p>
+      <div id="summary"></div>
+    </form>
+
+    <footer class="contenedor-footer">
+      <section class="redes-footer">
+        <a
+          class="redes-footer-link"
+          href="https://www.facebook.com/people/Maria-Dulce-Tortas/100059997801663/"
+          target="_blank"
+        >
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a
+          class="redes-footer-link"
+          href="https://www.instagram.com/mariadulcepasteleria/?hl=en"
+          target="_blank"
+        >
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a
+          class="redes-footer-link"
+          href="https://www.linkedin.com/in/maria-dulce-tortas-b12662261/?originalSubdomain=ar"
+          target="_blank"
+        >
+          <i class="bi bi-linkedin"></i>
+        </a>
+      </section>
+      <section class="nosotros-footer">
+        <p class="nosotros-texto">Nosotros</p>
+        <a class="nosotros-link" href="#"
+          ><i class="bi bi-file-earmark-person"></i
+        ></a>
+      </section>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,136 @@
+/* *** ESTILOS DE PRESUPUESTO*** */
+#formularioPresupuesto {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* border: red solid; */
+  width: 70vw;
+  align-items: center;
+}
+
+.grupo-input,
+.titulo-checkbox {
+  display: flex;
+  flex-direction: row;
+  /* border: green solid; */
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  align-items: center;
+  width: 70%;
+  gap: 10rem;
+}
+.label-grupo-input {
+  /* border: red solid; */
+  width: 10rem;
+}
+
+.input-grupo-input {
+  /* border: red solid; */
+  width: 50%;
+  height: 3rem;
+  font-size: 2rem;
+  /* background-color: #d9d9d9; */
+  /* border: none; */
+}
+
+.contenedor-checkbox {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: green solid; */
+  width: 55%;
+  margin-left: 12%;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+.producto-checkbox {
+  display: flex;
+  /* border: yellow solid; */
+  align-items: center;
+  gap: 2rem;
+}
+.input-checbox {
+  width: 2rem;
+  height: 2rem;
+
+  accent-color: green;
+}
+.label-checkbox {
+  font-size: 2rem;
+}
+
+.contenedor-porciones {
+  display: flex;
+  /* border: red solid; */
+  gap: 2rem;
+  /* align-items: center; */
+}
+.label-porciones {
+  font-size: 2rem;
+}
+.select-porciones {
+  display: flex;
+  font-size: rem;
+}
+
+.contenedor-pisos {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 2rem;
+  /* border: yellow solid; */
+  margin-left: 49%;
+  gap: 5rem;
+  margin-top: 5rem;
+}
+.pisos-radio {
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedor-mensaje {
+  display: flex;
+  flex-direction: column;
+  /* border: red solid; */
+  width: 50%;
+}
+.label-mensaje {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.boton-presupuesto {
+  width: 15rem;
+  margin-left: 40%;
+  height: 5rem;
+  font-size: 2rem;
+  background-color: #ffc4d6;
+  color: #ffff;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 2rem;
+}
+
+/* *** Resumen *** */
+
+form {
+  margin-bottom: 20px;
+}
+
+#step-2 {
+  display: none;
+}
+.resumen-text {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#summary {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50vw;
+  border: 1px solid #ccc;
+  padding: 4rem;
+  font-size: 2rem;
+  line-height: 2;
+}
