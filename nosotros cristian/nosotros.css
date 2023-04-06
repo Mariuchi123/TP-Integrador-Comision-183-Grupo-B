@@ -1,0 +1,26 @@
+.contenedor-nosotros{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+  background-color: aqua;
+}
+.titulo-nosotros {
+  display: flex;
+  font-size: 4rem;
+}
+.contenedor-tarjetas {
+  display: flex;
+}
+.tarjeta {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.imagen-nosotros {
+  width: 250px;
+  height: 250px;
+}
+.nombreapellido-nosotros {
+  font-size: 2rem;
+}
