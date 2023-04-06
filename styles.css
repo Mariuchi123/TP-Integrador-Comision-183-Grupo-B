@@ -137,6 +137,7 @@ ul#navbar-menu li a {
   width: 224px;
   height: 204px;
   margin-bottom: 2rem;
+  border-radius: 1rem;
 }
 
 .contenedor-footer {

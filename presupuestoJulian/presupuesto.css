@@ -4,7 +4,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   /* border: red solid; */
-  width: 70vw;
+  width: 90vw;
   align-items: center;
 }
 
@@ -30,7 +30,10 @@
   width: 50%;
   height: 3rem;
   font-size: 2rem;
-  /* background-color: #d9d9d9; */
+  padding: 0.5rem;
+  border-radius: 0.8rem;
+
+  background-color: #d9d9d9;
   /* border: none; */
 }
 
@@ -69,9 +72,13 @@
 .label-porciones {
   font-size: 2rem;
 }
-.select-porciones {
+.select-porciones,
+.input-cantidad {
   display: flex;
-  font-size: rem;
+  font-size: 2rem;
+  padding: 0.5rem;
+  background-color: #d9d9d9;
+  border-radius: 0.8rem;
 }
 
 .contenedor-pisos {
@@ -87,19 +94,29 @@
   display: flex;
   flex-direction: column;
 }
+.label-pisos {
+  font-size: 2rem;
+  padding-top: 2rem;
+}
 
 .contenedor-mensaje {
   display: flex;
   flex-direction: column;
   /* border: red solid; */
-  width: 50%;
+  width: 40vw;
 }
 .label-mensaje {
   font-size: 2rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-.boton-presupuesto {
+.text-mensaje {
+  font-size: 2rem;
+  background-color: #d9d9d9;
+  border-radius: 0.8rem;
+}
+.boton-presupuesto,
+.boton-volver {
   width: 15rem;
   margin-left: 40%;
   height: 5rem;
@@ -109,6 +126,9 @@
   margin-top: 1rem;
   margin-bottom: 1rem;
   border-radius: 2rem;
+}
+.boton-volver-link {
+  color: #ffff;
 }
 
 /* *** Resumen *** */
@@ -129,7 +149,8 @@ form {
   display: flex;
   flex-wrap: wrap;
   width: 50vw;
-  border: 1px solid #ccc;
+  border: 1px solid #ffc4d6;
+  border-radius: 2rem;
   padding: 4rem;
   font-size: 2rem;
   line-height: 2;

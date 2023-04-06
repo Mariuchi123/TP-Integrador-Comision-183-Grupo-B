@@ -39,7 +39,7 @@
       <ul id="navbar-menu" class="navbar-menu">
         <li><a href="../index.html">HOME</a></li>
         <li><a href="#">ACERCA DE MI</a></li>
-        <li><a href="#">CONTACTO</a></li>
+        <li><a href="../contacto/contacto.html">CONTACTO</a></li>
         <li><a href="presupuestoJulian/presupuesto.html">PRESUPUESTO</a></li>
       </ul>
     </nav>
@@ -80,7 +80,11 @@
           <label for="porciones" class="label-porciones"
             >Cantidad de porciones</label
           >
-          <select name="porcionesDeTorta" id="select-porciones-torta">
+          <select
+            name="porcionesDeTorta"
+            class="select-porciones"
+            id="select-porciones-torta"
+          >
             <option value="">Selecciona una opcion</option>
             <option value="10">10</option>
             <option value="20">20</option>
@@ -139,7 +143,11 @@
           <label for="porciones" class="label-porciones"
             >Cantidad de porciones</label
           >
-          <select name="porcionesDepostre" id="select-porciones-postre">
+          <select
+            name="porcionesDepostre"
+            class="select-porciones"
+            id="select-porciones-postre"
+          >
             <option value="">Selecciona una opcion</option>
             <option value="10">10</option>
             <option value="20">20</option>
@@ -168,6 +176,7 @@
             type="number"
             name="cajitasChocolatosas"
             id="cajitasChocolatosasCantidad"
+            class="input-cantidad"
           />
         </div>
       </div>
@@ -184,7 +193,12 @@
         </div>
         <div class="contenedor-porciones">
           <label for="cookiess" class="label-porciones">Cantidad </label>
-          <input type="number" name="cookiess" id="cookiesCantidad" />
+          <input
+            type="number"
+            name="cookiess"
+            id="cookiesCantidad"
+            class="input-cantidad"
+          />
         </div>
       </div>
       <div class="contenedor-checkbox">
@@ -193,6 +207,7 @@
             class="input-checbox"
             type="checkbox"
             id="iceCakesCupcakes"
+            class="input-cantidad"
             name="iceCakesCupcakes"
             value="iceCakesCupcakes"
           />
@@ -208,6 +223,7 @@
             type="number"
             name="iceCakesCupcakes"
             id="iceCakesCupcakesCantidad"
+            class="input-cantidad"
           />
         </div>
       </div>
@@ -226,7 +242,12 @@
           <label for="porciones" class="label-porciones"
             >Cantidad de comensales
           </label>
-          <input type="number" name="mesaDulce" id="mesaDulceComensales" />
+          <input
+            type="number"
+            name="mesaDulce"
+            id="mesaDulceComensales"
+            class="input-cantidad"
+          />
         </div>
       </div>
       <div class="contenedor-mensaje">
@@ -245,6 +266,13 @@
     <form id="step-2">
       <p class="resumen-text">Resumen:</p>
       <div id="summary"></div>
+      <button class="boton-volver">
+        <a
+          class="boton-volver-link"
+          href="../presupuestoJulian/presupuesto.html"
+          >Volver</a
+        >
+      </button>
     </form>
 
     <footer class="contenedor-footer">
